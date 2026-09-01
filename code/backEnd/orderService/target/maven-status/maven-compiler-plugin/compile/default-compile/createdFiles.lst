@@ -1,0 +1,9 @@
+com\web_application\UserServiceApplication.class
+com\web_application\constants\ApplicationConstants.class
+com\web_application\controller\UserController.class
+com\web_application\model\User.class
+com\web_application\config\SecurityConfig.class
+com\web_application\repository\UserRepository.class
+com\web_application\controller\AuthController.class
+com\web_application\service\AuthService.class
+com\web_application\service\Service.class
