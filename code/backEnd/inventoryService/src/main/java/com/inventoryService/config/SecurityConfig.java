@@ -1,7 +1,7 @@
-package com.userService.config;
+package com.inventoryService.config;
 
-import com.userService.security.JwtAuthenticationFilter;
-import com.userService.security.MyAuthenticationEntryPoint;
+import com.inventoryService.security.JwtAuthenticationFilter;
+import com.inventoryService.security.MyAuthenticationEntryPoint;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
