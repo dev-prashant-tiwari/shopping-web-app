@@ -31,7 +31,7 @@ public class SecurityConfig {
                                 .requestMatchers("v3/api-docs/**").permitAll()
                                 .requestMatchers("/login").permitAll()
                                 .requestMatchers("user/create").permitAll()
-                                .anyRequest().authenticated()
+                                .anyRequest().permitAll()
                         )
                 .exceptionHandling(ex -> ex.authenticationEntryPoint(authenticationEntryPoint))
                 .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS));
